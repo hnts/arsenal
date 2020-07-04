@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  namespace: railsgoat
+  name: setup
+spec:
+  template:
+    metadata:
+      name: setup
+    spec:
+      containers:
+      - name: setup
+        image: hnts/railsgoat:latest
+        imagePullPolicy: Never
+        command: ["/bin/sh"]
+        args: ["-c", "bundle exec rails db:setup && bundle exec rails db:migration"]
+        envFrom:
+        - configMapRef:
+            name: rails-config
+      restartPolicy: Never
