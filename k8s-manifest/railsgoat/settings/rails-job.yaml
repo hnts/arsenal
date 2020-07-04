@@ -13,7 +13,7 @@ spec:
         image: hnts/railsgoat:latest
         imagePullPolicy: Never
         command: ["/bin/sh"]
-        args: ["-c", "bundle exec rails db:setup && bundle exec rails db:migration"]
+        args: ["-c", "bundle exec rails db:setup && bundle exec rails db:migrate"]
         envFrom:
         - configMapRef:
             name: rails-config
