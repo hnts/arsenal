@@ -7,5 +7,8 @@
 - [ ] CI/CD
   - [ ] security automation
     - [ ] sast
+      - [ ] gosec
+      - [ ] brakeman
+      - [ ] psalm
     - [ ] dast
   - [ ] test automation
