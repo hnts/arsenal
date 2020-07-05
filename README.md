@@ -1,9 +1,8 @@
 # arsenal
 ## Roadmap
 - [x] railsgoat on k8s
-- [ ] Gitlab on k8s
-  - [ ] Gitlab
-  - [ ] Gitlab Runner
+- [ ] Gitlab Runner on k8s
+- [ ] Install Gitlab
 - [ ] Vulnerability management
 - [ ] CI/CD
   - [ ] security automation
