@@ -7,7 +7,7 @@
 - [ ] CI
   - [ ] security automation
     - [ ] sast
-      - [ ] gosec
+      - [x] gosec
       - [ ] brakeman
       - [ ] psalm
     - [ ] dast
