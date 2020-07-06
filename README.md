@@ -8,7 +8,7 @@
   - [ ] security automation
     - [ ] sast
       - [x] gosec
-      - [ ] brakeman
+      - [x] brakeman
       - [ ] psalm
     - [ ] dast
       - [ ] zap
