@@ -26,8 +26,10 @@ spec:
     spec:
       containers:
       - name: rails
-        image: hnts/railsgoat:latest
-        imagePullPolicy: Never
+        # If your node is arm64 architecture, use hnts/railsgoat.
+        image: owasp/railsgoat:latest
+        # If your node is arm64 architecture, use Never policy.
+        imagePullPolicy: Always
         command: ["bundle", "exec", "rails", "s", "-b", "0.0.0.0"]
         envFrom:
         - configMapRef:

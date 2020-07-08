@@ -10,8 +10,10 @@ spec:
     spec:
       containers:
       - name: setup
-        image: hnts/railsgoat:latest
-        imagePullPolicy: Never
+        # If your node is arm64 architecture, use hnts/railsgoat.
+        image: owasp/railsgoat:latest
+        # If your node is arm64 architecture, use Never policy.
+        imagePullPolicy: Always
         command: ["/bin/sh"]
         args: ["-c", "bundle exec rails db:setup && bundle exec rails db:migrate"]
         envFrom:
