@@ -1,4 +1,4 @@
-# arsenal
+# Arsenal
 ## Roadmap
 - [x] railsgoat on k8s
 - [ ] Gitlab Runner on k8s
