@@ -15,3 +15,9 @@
       - [ ] burp
   - [ ] test automation
 - [ ] CD
+- [ ] Monitoring
+  - [ ] Grafana
+  - [ ] Falco
+  - [ ] Prometheus
+  - [ ] Loki
+  - [ ] Argo CD
