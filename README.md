@@ -14,6 +14,7 @@
       - [ ] zap
       - [ ] burp
   - [ ] test automation
+    - [x] Testing Go Project
 - [ ] CD
 - [ ] Monitoring
   - [ ] Grafana
