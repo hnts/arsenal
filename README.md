@@ -22,3 +22,5 @@
   - [ ] Prometheus
   - [ ] Loki
   - [ ] Argo CD
+- [ ] Load Balancing
+  - [ ] traefik
