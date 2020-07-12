@@ -24,3 +24,5 @@
   - [ ] Argo CD
 - [ ] Load Balancing
   - [ ] traefik
+- [ ] VM
+  - [ ] Firecracker
