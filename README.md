@@ -10,6 +10,7 @@
       - [x] gosec
       - [x] brakeman
       - [ ] psalm
+      - [x] codeql
     - [ ] dast
       - [ ] zap
       - [ ] burp
