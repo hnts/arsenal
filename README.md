@@ -3,6 +3,7 @@
 - [x] railsgoat on k8s
 - [ ] Gitlab Runner on k8s
 - [ ] Self-hosted Runner on k8s
+- [ ] Self-hoster Runner on raspberry-pi
 - [x] Vulnerability management
 - [ ] CI
   - [ ] security automation
