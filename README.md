@@ -2,8 +2,9 @@
 ## Roadmap
 - [x] railsgoat on k8s
 - [ ] Gitlab Runner on k8s
-- [ ] Self-hosted Runner on k8s
-- [ ] Self-hoster Runner on raspberry-pi
+- [ ] Self-hosted runners on k8s
+- [x] Self-hosted runners on raspberry-pi
+- [x] Webhook on self-hosted runners
 - [x] Vulnerability management
 - [ ] CI
   - [ ] security automation
