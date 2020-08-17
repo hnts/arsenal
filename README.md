@@ -6,7 +6,7 @@
 - [x] Self-hosted runners on raspberry-pi
 - [x] Webhook on self-hosted runners
 - [x] Vulnerability management
-- [ ] CI
+- [ ] CI/CD
   - [ ] security automation
     - [ ] sast
       - [x] gosec
@@ -18,7 +18,9 @@
       - [ ] burp
   - [ ] test automation
     - [x] Testing Go Project
-- [ ] CD
+  - [ ] Tekton
+    - [ ] Create tasks
+    - [ ] Create pipelines
 - [ ] Monitoring
   - [ ] Grafana
   - [ ] Falco
